@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Borg Boids</title>
+  </head>
+  <body style="background-color: black">
+    <center><h1 style="color: white">Torroidal Boids (Borgs)</h1></center>
+    <div style="float: left; color: white">
+      <pre >
+        Camera Control:
+        Right/Left arrow:         +/- x position
+        Up/Down arrow:            +/- y position
+        W/S:                      +/- z position
+
+        Separation, Alignment, Cohesion Control:
+        <span id="f_imp">Q/A:     +/-      total importance: 0.01</span>
+        <span id="s_imp">E/D:     +/- separation importance: 1</span>
+        <span id="a_imp">R/F:     +/-  alignment importance: 1</span>
+        <span id="c_imp">T/G:     +/-   cohesion importance: 1</span>
+
+        Neighborhood Control:
+        <span id="r_inner">Y/H:     +/-     inner ring radius: 0.1</span>
+        <span id="r_outer">U/J:     +/-     outer ring radius: 0.2</span>
+
+        Other Control:
+        Z:                      reset simulation
+      </pre>
+
+    </div>
+  </body>
+  <script src="./bundle.js"></script>
+</html>
