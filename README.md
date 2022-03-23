@@ -1,4 +1,5 @@
 # Toroidal-Boids
+![](Toroidal_Boids.gif)
 An implementation of the flocking behavior commonly known as [BOIDS](https://en.wikipedia.org/wiki/Boids). Boids are an artificial life program which simulate flocking with only three agent-based rules:
 
 * **Separation**: Steer to keep at least a minimum distance from neighboring boids
